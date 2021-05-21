@@ -12,6 +12,7 @@ body{
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     position: absolute;
+    /* overflow: auto; */
 }
 
 .trees{
@@ -21,6 +22,8 @@ body{
     background-size: cover; 
     position: absolute;
     top: -144px; 
+    /* overflow: auto; */
+   
 }
 .track{
     height: 60vh;
@@ -30,6 +33,7 @@ body{
     position: absolute;
     top: 70vh;
     animation: carMove linear 13s infinite;
+    /* overflow: auto; */
 
 }
 
@@ -103,3 +107,7 @@ body{
         transform: translateY(-50px);
     }
 }
+/* .container{
+    width: 500px;
+    overflow: auto;
+} */
